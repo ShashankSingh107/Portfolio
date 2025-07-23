@@ -107,19 +107,6 @@ nav .right a span {
   width: 350px;
   border-radius: 50%;
 }
-.headshot img {
-  opacity: 0;
-  transform: scale(2);
-  transition: transform 0.6s ease, opacity 0.6s ease;
-  border-radius: 50%; /* optional: make it round if you want */
-  display: block;
-  margin: 0 auto;
-}
-
-.headshot img.pop-in {
-  opacity: 1;
-  transform: scale(1);
-}
 
 /* SECTION 2: Skills */
 .skills-section {
